@@ -1,0 +1,17 @@
+# r2.cfg - Router 2 Configuration
+
+interfaces:
+  - name: Gig0/0
+    ip: 192.168.1.2/24
+    vlan: 10
+  - name: Gig0/1
+    ip: 172.16.0.1/24
+    vlan: 30
+
+vlans:
+  - id: 10
+    name: Users
+  - id: 30
+    name: Backup
+
+hostname: R2

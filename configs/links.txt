@@ -1,0 +1,5 @@
+R1:Eth0 - R2:Eth0
+R1:Eth1 - R3:Eth0
+R2:Eth1 - R4:Eth0
+R3:Eth1 - R4:Eth1
+R4:Eth2 - R5:Eth0

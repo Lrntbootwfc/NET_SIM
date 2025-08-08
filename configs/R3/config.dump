@@ -1,0 +1,19 @@
+# sw1.cfg - Switch 1 Configuration
+
+interfaces:
+  - name: Gig1/0
+    vlan: 10
+  - name: Gig1/1
+    vlan: 30
+  - name: Gig1/2
+    vlan: 20
+
+vlans:
+  - id: 10
+    name: Users
+  - id: 20
+    name: Servers
+  - id: 30
+    name: Backup
+
+hostname: SW1

@@ -1,0 +1,17 @@
+hostname R4
+!
+interface Eth0
+description Link to R2 Eth1
+ip address 10.0.24.2 255.255.255.0
+bandwidth 1000
+!
+interface Eth1
+description Link to R3 Eth1
+ip address 10.0.34.2 255.255.255.0
+bandwidth 1000
+!
+interface Eth2
+description Link to R5 Eth0
+ip address 10.0.45.1 255.255.255.0
+bandwidth 1000
+!

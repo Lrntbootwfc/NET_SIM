@@ -1,0 +1,240 @@
+2025-08-08 12:48:46,420 [INFO] main: Starting NetSimPro
+2025-08-08 12:49:00,315 [ERROR] config_parser: 1 not found
+2025-08-08 12:49:00,316 [INFO] main: Parsed configs from 1
+2025-08-08 13:12:01,181 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:01,200 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:01,215 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:01,216 [INFO] main: Parsed 1 device configs
+2025-08-08 13:12:01,219 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:12:01,220 [INFO] main: Topology built: 1 nodes, 0 edges
+2025-08-08 13:12:01,221 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:12:01,223 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-08 13:12:01,225 [INFO] analyzer: Analysis complete
+2025-08-08 13:12:01,230 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-08 13:12:01,231 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-08 13:12:01,232 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-08 13:12:01,232 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-08 13:12:01,234 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:12:01,234 [INFO] recommender: Generated 0 recommendations
+2025-08-08 13:12:01,235 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:12:01,239 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 13:12:03,468 [INFO] visualizer: Saved topology image to D:\.vscode\VIP CISCO\network_topology_tool\output\topology.png
+2025-08-08 13:12:45,282 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:45,283 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:45,284 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:52,194 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:52,195 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:52,196 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:52,197 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:12:58,572 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:58,573 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:58,573 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:12:58,574 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:12:58,575 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:13:04,614 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:04,614 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:04,615 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:04,615 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:13:04,615 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-08 13:13:04,617 [INFO] analyzer: Analysis complete
+2025-08-08 13:13:08,797 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:08,798 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:08,799 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:08,799 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:13:08,800 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:13:08,800 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 13:13:14,428 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:14,428 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:14,429 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:14,430 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:13:14,589 [INFO] visualizer: Saved topology image to ./output/topology.png
+2025-08-08 13:13:30,394 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:30,395 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:30,396 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:13:30,396 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:15:19,378 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:15:19,379 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:15:19,379 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:15:19,380 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:18:08,298 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:18:08,299 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:18:08,300 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:18:08,300 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:18:08,302 [INFO] simulator: [Sim] Device config started
+2025-08-08 13:18:08,304 [INFO] simulator: Simulation started for Day-1
+2025-08-08 13:18:13,305 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 13:18:13,306 [INFO] simulator: Simulation ended
+2025-08-08 13:18:29,280 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:18:29,282 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:18:29,282 [INFO] config_parser: Parsed config (2 interfaces, 2 vlans)
+2025-08-08 13:18:29,283 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:18:34,395 [ERROR] simulator: Invalid link format. Use format like 'R1-R2'.
+2025-08-08 13:22:40,153 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:22:40,168 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:22:40,184 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:22:40,185 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:22:40,466 [INFO] visualizer: Saved topology image to ./output/topology.png
+2025-08-08 13:24:15,491 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:24:15,491 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:24:15,492 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:24:15,492 [INFO] main: Parsed 1 device configs
+2025-08-08 13:24:15,494 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:24:15,494 [INFO] main: Topology built: 1 nodes, 0 edges
+2025-08-08 13:24:15,495 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:24:15,497 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-08 13:24:15,498 [INFO] analyzer: Analysis complete
+2025-08-08 13:24:15,499 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-08 13:24:15,499 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-08 13:24:15,499 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-08 13:24:15,501 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-08 13:24:15,501 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:24:15,501 [INFO] recommender: Generated 0 recommendations
+2025-08-08 13:24:15,507 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:24:15,508 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 13:24:15,678 [INFO] visualizer: Saved topology image to D:\.vscode\VIP CISCO\network_topology_tool\output\topology.png
+2025-08-08 13:24:18,000 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:24:18,001 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:24:18,002 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:24:18,002 [INFO] topology_builder: Built topology: nodes=1 edges=0
+2025-08-08 13:24:18,138 [INFO] visualizer: Saved topology image to ./output/topology.png
+2025-08-08 13:24:47,484 [INFO] main: Interrupted by user. Exiting.
+2025-08-08 13:51:00,903 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:51:00,905 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:51:00,906 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:51:00,908 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:51:00,909 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:51:00,915 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:51:00,915 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:51:00,916 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:51:00,916 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:51:00,917 [INFO] main: Topology built: 4 nodes, 1 edges
+2025-08-08 13:51:00,917 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:51:00,922 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 13:51:00,923 [INFO] analyzer: Analysis complete
+2025-08-08 13:51:00,931 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 13:51:00,932 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-08 13:51:00,934 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 13:51:00,934 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-08 13:51:00,935 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:51:00,936 [INFO] recommender: Generated 0 recommendations
+2025-08-08 13:51:00,937 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:51:00,939 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 13:51:01,290 [INFO] visualizer: Saved topology image to D:\.vscode\VIP CISCO\network_topology_tool\output\topology.png
+2025-08-08 13:51:06,904 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:51:06,905 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:51:06,905 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:51:06,906 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:51:06,907 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:51:06,907 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:51:06,908 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:51:06,908 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:51:06,909 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:51:07,106 [INFO] visualizer: Saved topology image to ./output/topology.png
+2025-08-08 13:53:35,684 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:53:35,685 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:35,686 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:35,687 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:35,688 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:53:35,690 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:53:39,476 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:53:39,477 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:39,477 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:39,479 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:39,479 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:53:39,480 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:53:39,481 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:53:39,482 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:53:39,482 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:53:42,940 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:53:42,941 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:42,942 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:42,943 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:42,943 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:53:42,944 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:53:42,944 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:53:42,945 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:53:42,945 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:53:42,947 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:53:44,416 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:53:44,417 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:44,418 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:44,418 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:44,419 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:53:44,420 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:53:44,420 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:53:44,420 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:53:44,421 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:53:44,422 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 13:53:44,423 [INFO] analyzer: Analysis complete
+2025-08-08 13:53:45,970 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:53:45,971 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:45,971 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:45,972 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:45,973 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:53:45,974 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:53:45,974 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:53:45,975 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:53:45,975 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:53:45,976 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 13:53:45,976 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 13:53:47,799 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:53:47,800 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:47,801 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:47,801 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:47,802 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:53:47,804 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:53:47,805 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:53:47,805 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:53:47,806 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:53:48,079 [INFO] visualizer: Saved topology image to ./output/topology.png
+2025-08-08 13:53:50,309 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:53:50,311 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:50,313 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:50,315 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:53:50,317 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:53:50,319 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:53:50,320 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:53:50,320 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:53:50,321 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:53:50,323 [INFO] simulator: [Sim] Device links started
+2025-08-08 13:53:50,324 [INFO] simulator: [Sim] Device config started
+2025-08-08 13:53:50,325 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 13:53:50,326 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 13:53:50,327 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 13:53:50,328 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 13:53:50,329 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 13:53:50,329 [INFO] simulator: Simulation started for Day-1
+2025-08-08 13:53:50,339 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 13:53:55,336 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 13:53:55,337 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 13:53:55,339 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 13:53:55,341 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 13:53:55,342 [INFO] simulator: Simulation ended
+2025-08-08 13:54:00,641 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:54:00,642 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:54:00,643 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:54:00,643 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:54:00,644 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:54:00,644 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:54:00,645 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:54:00,645 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:54:00,646 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:54:10,727 [ERROR] simulator: No such edge
+2025-08-08 13:54:21,772 [ERROR] config_parser: Config dir not found: R4-R5
+2025-08-08 13:54:21,773 [INFO] topology_builder: Added 0 device nodes
+2025-08-08 13:54:21,774 [INFO] topology_builder: Final topology: nodes=0 edges=0
+2025-08-08 13:54:39,306 [ERROR] simulator: Invalid link format. Use format like 'R1-R2'.
+2025-08-08 13:54:42,005 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 13:54:42,006 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:54:42,007 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:54:42,007 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 13:54:42,008 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 13:54:42,009 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 13:54:42,010 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 13:54:42,010 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 13:54:42,011 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 13:54:47,659 [WARNING] simulator: Link R4-R5 brought down
+2025-08-08 13:54:47,661 [WARNING] simulator: Network partition occurred:
+2025-08-08 13:54:47,662 [WARNING] simulator: Component: {'links'}
+2025-08-08 13:54:47,662 [WARNING] simulator: Component: {'config'}
+2025-08-08 13:54:47,662 [WARNING] simulator: Component: {'R4', 'R5'}
