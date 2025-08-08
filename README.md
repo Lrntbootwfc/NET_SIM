@@ -129,12 +129,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ---
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
 ## Contact
 
 **Divya Sharma**
@@ -147,9 +141,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * Inspired by network engineering best practices and Cisco IOS configuration formats.
 * Thanks to open-source Python libraries used in this project.
 
-```
-
----
-
-Would you like me to generate a `requirements.txt` or help you with the Streamlit branch setup next?
-```
+  
