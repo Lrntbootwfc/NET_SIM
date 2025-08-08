@@ -238,3 +238,463 @@
 2025-08-08 13:54:47,662 [WARNING] simulator: Component: {'links'}
 2025-08-08 13:54:47,662 [WARNING] simulator: Component: {'config'}
 2025-08-08 13:54:47,662 [WARNING] simulator: Component: {'R4', 'R5'}
+2025-08-08 17:25:00,691 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 17:25:00,724 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:25:00,751 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:25:00,783 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:25:00,811 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 17:25:00,841 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 17:25:00,844 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:25:00,845 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:25:00,846 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:25:00,854 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:25:00,858 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 17:25:00,862 [INFO] analyzer: Analysis complete
+2025-08-08 17:25:01,582 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 17:33:55,406 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 17:33:55,414 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:33:55,418 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:33:55,421 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:33:55,425 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 17:33:55,442 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 17:34:11,305 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:34:11,308 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:34:11,309 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:34:11,312 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:34:11,326 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 17:34:11,332 [INFO] analyzer: Analysis complete
+2025-08-08 17:34:11,347 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:34:11,356 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 17:34:11,527 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 17:34:36,662 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:34:36,664 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:34:36,667 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:34:40,579 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:34:40,582 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:34:40,583 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:34:40,584 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:34:43,580 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:34:43,586 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:34:43,588 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:34:43,593 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 17:34:43,602 [INFO] analyzer: Analysis complete
+2025-08-08 17:34:48,393 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:34:48,396 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:34:48,398 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:34:48,401 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:34:48,408 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 17:34:52,183 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:34:52,186 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:34:52,187 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:34:52,347 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 17:34:57,501 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:34:57,503 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:34:57,503 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:34:57,508 [INFO] simulator: [Sim] Device links started
+2025-08-08 17:34:57,510 [INFO] simulator: [Sim] Device config started
+2025-08-08 17:34:57,513 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 17:34:57,521 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 17:34:57,521 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 17:34:57,523 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 17:34:57,524 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 17:34:57,523 [INFO] simulator: Simulation started for Day-1
+2025-08-08 17:34:57,535 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 17:35:02,528 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 17:35:02,529 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 17:35:02,531 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 17:35:02,532 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 17:35:02,533 [INFO] simulator: Simulation ended
+2025-08-08 17:35:11,721 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:35:11,724 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:35:11,725 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:35:14,122 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:35:14,124 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:35:14,125 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:35:14,130 [WARNING] simulator: Link R4-R5 brought down
+2025-08-08 17:35:14,132 [WARNING] simulator: Network partition occurred:
+2025-08-08 17:35:14,134 [WARNING] simulator: Component: {'links'}
+2025-08-08 17:35:14,136 [WARNING] simulator: Component: {'config'}
+2025-08-08 17:35:14,142 [WARNING] simulator: Component: {'R5', 'R4'}
+2025-08-08 17:49:46,437 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 17:49:46,441 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:49:46,444 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:49:46,447 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:49:46,450 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 17:49:46,453 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 17:50:07,425 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:50:07,427 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:50:07,428 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:50:07,429 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:50:07,445 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 17:50:07,446 [INFO] analyzer: Analysis complete
+2025-08-08 17:50:07,450 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:50:07,454 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 17:50:07,640 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 17:50:18,619 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:50:18,623 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:50:18,625 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:50:18,627 [INFO] simulator: [Sim] Device links started
+2025-08-08 17:50:18,635 [INFO] simulator: [Sim] Device config started
+2025-08-08 17:50:18,640 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 17:50:18,643 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 17:50:18,644 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 17:50:18,645 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 17:50:18,646 [INFO] simulator: Simulation started for Day-1
+2025-08-08 17:50:18,647 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 17:50:18,656 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 17:50:23,648 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 17:50:23,649 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 17:50:23,650 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 17:50:23,651 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 17:50:23,652 [INFO] simulator: Simulation ended
+2025-08-08 17:50:40,595 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:50:40,597 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:50:40,599 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:50:42,443 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:50:42,445 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:50:42,454 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:50:42,460 [WARNING] simulator: Link R4-R5 brought down
+2025-08-08 17:50:42,480 [WARNING] simulator: Network partition occurred:
+2025-08-08 17:50:42,483 [WARNING] simulator: Component: {'links'}
+2025-08-08 17:50:42,488 [WARNING] simulator: Component: {'config'}
+2025-08-08 17:50:42,489 [WARNING] simulator: Component: {'R5', 'R4'}
+2025-08-08 17:50:49,453 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:50:49,455 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:50:49,456 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:50:49,459 [INFO] simulator: [Sim] Device links started
+2025-08-08 17:50:49,461 [INFO] simulator: [Sim] Device config started
+2025-08-08 17:50:49,465 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 17:50:49,466 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 17:50:49,467 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 17:50:49,470 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 17:50:49,474 [INFO] simulator: Simulation started for Day-1
+2025-08-08 17:50:49,475 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 17:50:49,486 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 17:50:54,476 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 17:50:54,477 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 17:50:54,478 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 17:50:54,479 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 17:50:54,480 [INFO] simulator: Simulation ended
+2025-08-08 17:51:20,069 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 17:51:20,081 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:51:20,094 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:51:20,099 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:51:20,109 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 17:51:20,117 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 17:51:24,234 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:51:24,237 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:51:24,240 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:51:24,242 [INFO] simulator: [Sim] Device links started
+2025-08-08 17:51:24,242 [INFO] simulator: [Sim] Device config started
+2025-08-08 17:51:24,243 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 17:51:24,245 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 17:51:24,247 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 17:51:24,248 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 17:51:24,251 [INFO] simulator: Simulation started for Day-1
+2025-08-08 17:51:24,252 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 17:51:24,261 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 17:51:29,254 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 17:51:29,255 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 17:51:29,256 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 17:51:29,257 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 17:51:29,258 [INFO] simulator: Simulation ended
+2025-08-08 17:55:51,613 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 17:55:51,620 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:55:51,622 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:55:51,625 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 17:55:51,633 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 17:55:51,636 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 17:55:55,753 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:55:55,755 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:55:55,757 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:55:55,762 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:55:55,769 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 17:55:55,781 [INFO] analyzer: Analysis complete
+2025-08-08 17:55:55,790 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 17:55:55,797 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 17:55:56,069 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 17:56:03,445 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:56:03,448 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:56:03,448 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:56:03,452 [INFO] simulator: [Sim] Device links started
+2025-08-08 17:56:03,454 [INFO] simulator: [Sim] Device config started
+2025-08-08 17:56:03,456 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 17:56:03,457 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 17:56:03,458 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 17:56:03,458 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 17:56:03,460 [INFO] simulator: Simulation started for Day-1
+2025-08-08 17:56:03,460 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 17:56:03,471 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 17:56:08,461 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 17:56:08,462 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 17:56:08,463 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 17:56:08,464 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 17:56:08,465 [INFO] simulator: Simulation ended
+2025-08-08 17:56:24,673 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:56:24,676 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:56:24,677 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:56:24,678 [INFO] simulator: [Sim] Device links started
+2025-08-08 17:56:24,679 [INFO] simulator: [Sim] Device config started
+2025-08-08 17:56:24,680 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 17:56:24,681 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 17:56:24,681 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 17:56:24,684 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 17:56:24,690 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 17:56:24,685 [INFO] simulator: Simulation started for Day-1
+2025-08-08 17:56:24,698 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 17:56:29,698 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 17:56:29,699 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 17:56:29,700 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 17:56:29,701 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 17:56:29,702 [INFO] simulator: Simulation ended
+2025-08-08 17:56:44,258 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:56:44,263 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:56:44,264 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:56:44,265 [INFO] simulator: [Sim] Device links started
+2025-08-08 17:56:44,265 [INFO] simulator: [Sim] Device config started
+2025-08-08 17:56:44,267 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 17:56:44,268 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 17:56:44,272 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 17:56:44,279 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 17:56:44,279 [INFO] simulator: Simulation started for Day-1
+2025-08-08 17:56:44,279 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 17:56:44,289 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 17:56:49,281 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 17:56:49,282 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 17:56:49,283 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 17:56:49,284 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 17:56:49,285 [INFO] simulator: Simulation ended
+2025-08-08 17:57:17,595 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:57:17,610 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:57:17,610 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:57:17,629 [INFO] simulator: [Sim] Device links started
+2025-08-08 17:57:17,675 [INFO] simulator: [Sim] Device config started
+2025-08-08 17:57:17,714 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 17:57:17,725 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 17:57:17,727 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 17:57:17,731 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 17:57:17,742 [INFO] simulator: Simulation started for Day-1
+2025-08-08 17:57:17,742 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 17:57:17,760 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 17:57:22,744 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 17:57:22,745 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 17:57:22,745 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 17:57:22,745 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 17:57:22,746 [INFO] simulator: Simulation ended
+2025-08-08 17:57:27,234 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:57:27,236 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:57:27,236 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:57:28,887 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 17:57:28,889 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 17:57:28,891 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 17:57:28,893 [WARNING] simulator: Link R4-R5 brought down
+2025-08-08 17:57:28,894 [WARNING] simulator: Network partition occurred:
+2025-08-08 17:57:28,896 [WARNING] simulator: Component: {'links'}
+2025-08-08 17:57:28,896 [WARNING] simulator: Component: {'config'}
+2025-08-08 17:57:28,897 [WARNING] simulator: Component: {'R4', 'R5'}
+2025-08-08 18:04:04,495 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 18:04:04,504 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:04:04,516 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:04:04,520 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:04:04,523 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 18:04:04,535 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 18:04:09,307 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:04:09,309 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:04:09,310 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:04:09,312 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:04:09,326 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 18:04:09,328 [INFO] analyzer: Analysis complete
+2025-08-08 18:04:09,331 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:04:09,337 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 18:04:09,508 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 18:04:15,728 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:04:15,732 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:04:15,734 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:04:15,738 [INFO] simulator: [Sim] Device links started
+2025-08-08 18:04:15,742 [INFO] simulator: [Sim] Device config started
+2025-08-08 18:04:15,745 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 18:04:15,750 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 18:04:15,750 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 18:04:15,753 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 18:04:15,755 [INFO] simulator: Simulation started for Day-1
+2025-08-08 18:04:15,756 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 18:04:15,768 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 18:04:20,760 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 18:04:20,761 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 18:04:20,763 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 18:04:20,764 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 18:04:20,765 [INFO] simulator: Simulation ended
+2025-08-08 18:06:01,723 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 18:06:01,726 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:06:01,730 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:06:01,734 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:06:01,751 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 18:06:01,766 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 18:06:05,382 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:06:05,383 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:06:05,385 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:06:05,387 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:06:05,393 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 18:06:05,394 [INFO] analyzer: Analysis complete
+2025-08-08 18:06:05,410 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:06:05,414 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 18:06:05,703 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 18:06:10,697 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:06:10,699 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:06:10,701 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:06:10,717 [INFO] simulator: [Sim] Device links started
+2025-08-08 18:06:10,719 [INFO] simulator: [Sim] Device config started
+2025-08-08 18:06:10,724 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 18:06:10,725 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 18:06:10,726 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 18:06:10,728 [INFO] simulator: Simulation started for Day-1
+2025-08-08 18:06:10,728 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 18:06:10,740 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 18:06:10,741 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 18:06:15,742 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 18:06:15,745 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 18:06:15,747 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 18:06:15,748 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 18:06:15,749 [INFO] simulator: Simulation ended
+2025-08-08 18:10:30,004 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 18:10:30,007 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:10:30,010 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:10:30,012 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:10:30,023 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 18:10:30,024 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 18:10:34,565 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:10:34,567 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:10:34,567 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:10:34,570 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:10:34,575 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 18:10:34,578 [INFO] analyzer: Analysis complete
+2025-08-08 18:10:34,587 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:10:34,592 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 18:10:34,761 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 18:10:39,757 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:10:39,760 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:10:39,761 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:10:39,776 [INFO] simulator: [Sim] Device links started
+2025-08-08 18:10:39,783 [INFO] simulator: [Sim] Device config started
+2025-08-08 18:10:39,790 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 18:10:39,792 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 18:10:39,794 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 18:10:39,807 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 18:10:39,808 [INFO] simulator: Simulation started for Day-1
+2025-08-08 18:10:39,808 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 18:10:39,821 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 18:10:44,810 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 18:10:44,811 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 18:10:44,812 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 18:10:44,813 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 18:10:44,814 [INFO] simulator: Simulation ended
+2025-08-08 18:18:20,362 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 18:18:20,366 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:18:20,371 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:18:20,372 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:18:20,380 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 18:18:20,386 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 18:18:24,575 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:18:24,578 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:18:24,579 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:18:24,584 [INFO] simulator: [Sim] Device links started
+2025-08-08 18:18:24,588 [INFO] simulator: [Sim] Device config started
+2025-08-08 18:18:24,591 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 18:18:24,594 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 18:18:24,595 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 18:18:24,600 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 18:18:24,601 [INFO] simulator: Simulation started for Day-1
+2025-08-08 18:18:24,601 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 18:18:24,617 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 18:18:29,603 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 18:18:29,604 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 18:18:29,605 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 18:18:29,606 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 18:18:29,607 [INFO] simulator: Simulation ended
+2025-08-08 18:19:06,330 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 18:19:06,333 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:19:06,335 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:19:06,337 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:19:06,355 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 18:19:06,361 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 18:19:09,698 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:19:09,701 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:19:09,702 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:19:09,705 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:19:09,725 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 18:19:09,729 [INFO] analyzer: Analysis complete
+2025-08-08 18:19:09,734 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:19:09,742 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 18:19:10,076 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 18:19:14,974 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:19:14,977 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:19:14,977 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:19:14,983 [INFO] simulator: [Sim] Device links started
+2025-08-08 18:19:14,984 [INFO] simulator: [Sim] Device config started
+2025-08-08 18:19:14,988 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 18:19:14,990 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 18:19:14,993 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 18:19:15,003 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 18:19:15,004 [INFO] simulator: Simulation started for Day-1
+2025-08-08 18:19:15,010 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 18:19:15,017 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 18:19:20,012 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 18:19:20,014 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 18:19:20,016 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 18:19:20,017 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 18:19:20,020 [INFO] simulator: Simulation ended
+2025-08-08 18:22:48,380 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 18:22:48,385 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:22:48,388 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:22:48,392 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:22:48,395 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 18:22:48,396 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 18:22:52,832 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:22:52,835 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:22:52,837 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:22:52,848 [INFO] simulator: [Sim] Device links started
+2025-08-08 18:22:52,851 [INFO] simulator: [Sim] Device config started
+2025-08-08 18:22:52,853 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 18:22:52,855 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 18:22:52,855 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 18:22:52,858 [INFO] simulator: Simulation started for Day-1
+2025-08-08 18:22:52,859 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 18:22:52,864 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 18:22:52,869 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 18:22:57,862 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 18:22:57,863 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 18:22:57,864 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 18:22:57,865 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 18:22:57,866 [INFO] simulator: Simulation ended
+2025-08-08 18:26:46,038 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-08 18:26:46,043 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:26:46,047 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:26:46,056 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-08 18:26:46,068 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-08 18:26:46,072 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-08 18:26:50,423 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:26:50,426 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:26:50,427 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:26:50,430 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:26:50,438 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-08 18:26:50,448 [INFO] analyzer: Analysis complete
+2025-08-08 18:26:50,451 [INFO] validator: Validation complete, 0 issues found
+2025-08-08 18:26:50,453 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-08 18:26:50,655 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-08 18:26:59,668 [INFO] topology_builder: Added 4 device nodes
+2025-08-08 18:26:59,672 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-08 18:26:59,673 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-08 18:26:59,675 [INFO] simulator: [Sim] Device links started
+2025-08-08 18:26:59,677 [INFO] simulator: [Sim] Device config started
+2025-08-08 18:26:59,681 [INFO] simulator: [Sim] Device R4 started
+2025-08-08 18:26:59,687 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-08 18:26:59,687 [INFO] simulator: [Sim] Device R5 started
+2025-08-08 18:26:59,688 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-08 18:26:59,690 [INFO] simulator: Simulation started for Day-1
+2025-08-08 18:26:59,690 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-08 18:26:59,702 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-08 18:27:04,693 [INFO] simulator: [Sim] Device links stopped
+2025-08-08 18:27:04,694 [INFO] simulator: [Sim] Device config stopped
+2025-08-08 18:27:04,695 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-08 18:27:04,696 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-08 18:27:04,697 [INFO] simulator: Simulation ended
