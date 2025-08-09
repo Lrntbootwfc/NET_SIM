@@ -1,4 +1,5 @@
 import streamlit as st
+import json
 from pathlib import Path
 from modules import (
     config_parser,
@@ -54,7 +55,7 @@ if option == "Upload Configs":
     st.header("Upload your router config files (or choose to use sample configs)")
     uploaded_files = st.file_uploader(
         "Upload one or more .cfg or .txt config files",
-        type=["cfg", "txt"],
+        type=["cfg", "txt","json"],
         accept_multiple_files=True
     )
     use_sample = st.checkbox("Don't have files? Use sample configs to continue")
@@ -64,6 +65,12 @@ if option == "Upload Configs":
         for file in uploaded_files:
             try:
                 content = file.getvalue().decode("utf-8")
+                if file.name.lower().endswith(".json"):
+                    try:
+                        content = json.loads(content)
+                    except json.JSONDecodeError:
+                        st.error(f"Invalid JSON format in {file.name}")
+                        continue
             except UnicodeDecodeError:
                 st.error(f"Could not decode {file.name}. Please upload UTF-8 encoded files.")
                 continue
@@ -91,11 +98,22 @@ def run_topology_pipeline(configs):
     # Accepts dict of filename -> content or directory path string
     # For compatibility with your modules, adapt as needed
     if isinstance(configs, dict):
-        # If configs is dict, parse manually inside build_topology
+        # If configs is dict, parse each file content into structured config
+        parsed_configs = {}
+        for fname, content in configs.items():
+            try:
+                parsed_configs[fname] = config_parser.parse_config(content)
+            except Exception as e:
+                st.error(f"Error parsing {fname}: {e}")
+                return None
+        G = topology_builder.build_topology(parsed_configs)
+    elif isinstance(configs, str):
+        # If configs is a path, pass directly
         G = topology_builder.build_topology(configs)
     else:
-        # If string path (like sample), just pass it
-        G = topology_builder.build_topology(configs)
+        st.error("Invalid config format.")
+        return None
+
     return G
 
 

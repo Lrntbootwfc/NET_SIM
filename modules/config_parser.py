@@ -93,14 +93,18 @@ def parse_links_file(path: str) -> list[tuple[str, str]]:
     [("R1:Gig0/1", "R2:Gig0/1"), ("R1:Gig0/2", "SW1:Gig1/0")]
     """
     links = []
+    
     if not os.path.isfile(path):
         log.error("Links file not found: %s", path)
         return links
-    
+        
+        # existing code ...
+
     try:
         with open(path, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
+                print(f"Parsing link line: '{line}'")
                 if not line or line.startswith("#"):
                     continue
                 if "-" not in line:
@@ -121,3 +125,39 @@ def parse_links_file(path: str) -> list[tuple[str, str]]:
 
     log.info("Parsed %d links from %s", len(links), path)
     return links
+
+import json
+
+def parse_config(config_input):
+    """
+    Wrapper function that can parse:
+    - JSON config file (string path or dict already loaded)
+    - Old Cisco-like configs (folder path or .txt file)
+    """
+
+    # If already a dictionary → assume JSON already parsed
+    if isinstance(config_input, dict):
+        return config_input
+
+    # If it's a string path
+    if isinstance(config_input, str):
+        if config_input.lower().endswith(".json"):
+            # Parse JSON file
+            try:
+                with open(config_input, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except Exception as e:
+                log.error("Failed to read JSON config %s: %s", config_input, e)
+                return {}
+
+        elif os.path.isdir(config_input):
+            # Parse old-style configs from folder
+            return parse_all_configs(config_input)
+
+        elif os.path.isfile(config_input):
+            # Single Cisco-like config file
+            return {os.path.basename(config_input): parse_config_file(config_input)}
+
+    log.error("Unsupported config input type: %s", type(config_input))
+    return {}
+

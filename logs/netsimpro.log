@@ -698,3 +698,1148 @@
 2025-08-08 18:27:04,695 [INFO] simulator: [Sim] Device R4 stopped
 2025-08-08 18:27:04,696 [INFO] simulator: [Sim] Device R5 stopped
 2025-08-08 18:27:04,697 [INFO] simulator: Simulation ended
+2025-08-09 16:06:15,956 [INFO] topology_builder: Added 1 device nodes
+2025-08-09 16:06:15,961 [INFO] topology_builder: Final topology: nodes=1 edges=0
+2025-08-09 16:07:06,108 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 16:07:06,130 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:07:06,172 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:07:06,194 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:07:06,223 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 16:07:06,261 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 16:07:30,193 [INFO] topology_builder: Added 4 device nodes
+2025-08-09 16:07:30,202 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 16:07:30,230 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-09 16:07:30,271 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:07:30,284 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 16:07:30,294 [INFO] analyzer: Analysis complete
+2025-08-09 16:07:30,307 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:07:30,326 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 16:07:31,540 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 16:12:38,656 [INFO] topology_builder: Added 1 device nodes
+2025-08-09 16:12:38,657 [INFO] topology_builder: Final topology: nodes=1 edges=0
+2025-08-09 16:42:01,544 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 16:42:01,547 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:42:01,549 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:42:01,553 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:42:01,558 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 16:42:01,561 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 16:51:08,431 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 16:51:08,434 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:51:08,440 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:51:08,441 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:51:08,444 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 16:51:08,460 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 16:51:11,870 [INFO] topology_builder: Added 4 device nodes
+2025-08-09 16:51:11,874 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 16:51:11,875 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-09 16:51:11,885 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:51:11,893 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 16:51:11,916 [INFO] analyzer: Analysis complete
+2025-08-09 16:51:11,920 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:51:11,936 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 16:51:12,307 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 16:51:32,771 [INFO] topology_builder: Added 4 device nodes
+2025-08-09 16:51:32,772 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 16:51:32,773 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-09 16:51:32,774 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:51:32,776 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 16:51:50,699 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 16:51:50,702 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:51:50,705 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:51:50,709 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 16:51:50,711 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 16:51:50,717 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 16:51:50,722 [INFO] topology_builder: Added 4 device nodes
+2025-08-09 16:51:50,727 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 16:51:50,728 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-09 16:51:50,730 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 16:51:50,740 [INFO] analyzer: Analysis complete
+2025-08-09 16:52:08,960 [INFO] topology_builder: Added 4 device nodes
+2025-08-09 16:52:08,964 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 16:52:08,965 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-09 16:52:12,353 [INFO] topology_builder: Added 4 device nodes
+2025-08-09 16:52:12,356 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 16:52:12,357 [INFO] topology_builder: Final topology: nodes=4 edges=1
+2025-08-09 16:52:12,359 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:52:12,363 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 16:52:12,364 [INFO] analyzer: Analysis complete
+2025-08-09 16:52:12,368 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:52:12,375 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 16:52:12,557 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 16:52:42,252 [INFO] topology_builder: Added 1 device nodes
+2025-08-09 16:52:42,255 [INFO] topology_builder: Final topology: nodes=1 edges=0
+2025-08-09 16:52:42,262 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:52:42,270 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-09 16:52:42,272 [INFO] analyzer: Analysis complete
+2025-08-09 16:52:42,278 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:52:42,287 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 16:52:42,469 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 16:52:55,185 [INFO] topology_builder: Added 1 device nodes
+2025-08-09 16:52:55,189 [INFO] topology_builder: Final topology: nodes=1 edges=0
+2025-08-09 16:52:55,190 [INFO] simulator: [Sim] Device congurli.json started
+2025-08-09 16:52:55,191 [INFO] simulator: Simulation started for Day-1
+2025-08-09 16:52:58,758 [INFO] topology_builder: Added 1 device nodes
+2025-08-09 16:52:58,761 [INFO] topology_builder: Final topology: nodes=1 edges=0
+2025-08-09 16:52:58,766 [INFO] simulator: [Sim] Device congurli.json started
+2025-08-09 16:52:58,769 [INFO] simulator: Simulation started for Day-1
+2025-08-09 16:53:00,193 [INFO] simulator: [Sim] Device congurli.json stopped
+2025-08-09 16:53:00,194 [INFO] simulator: Simulation ended
+2025-08-09 16:53:03,774 [INFO] simulator: [Sim] Device congurli.json stopped
+2025-08-09 16:53:03,776 [INFO] simulator: Simulation ended
+2025-08-09 16:56:00,798 [INFO] topology_builder: Added 1 device nodes
+2025-08-09 16:56:00,799 [INFO] topology_builder: Final topology: nodes=1 edges=0
+2025-08-09 16:56:00,801 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:56:00,806 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-09 16:56:00,809 [INFO] analyzer: Analysis complete
+2025-08-09 16:56:00,818 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 16:56:00,822 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 16:56:01,032 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 17:01:50,470 [INFO] topology_builder: Added 1 device nodes
+2025-08-09 17:01:50,471 [INFO] topology_builder: Final topology: nodes=1 edges=0
+2025-08-09 17:01:50,473 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 17:01:50,475 [INFO] bandwidth_checker: Bandwidth check done: 0 links — avg utilization 0.00
+2025-08-09 17:01:50,477 [INFO] analyzer: Analysis complete
+2025-08-09 17:01:50,482 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 17:01:50,497 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 17:01:50,674 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:24:21,624 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 18:24:21,638 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 18:24:21,692 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 18:24:21,718 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 18:24:21,757 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 18:24:21,759 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:24:21,778 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 18:24:21,817 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 18:24:21,821 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:24:21,824 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:24:21,829 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 18:24:21,832 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 18:24:21,850 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 18:24:21,883 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 18:24:21,927 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 18:24:21,945 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 18:24:21,970 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 18:24:21,994 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 18:24:22,020 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 18:24:22,143 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 18:24:22,196 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 18:24:25,728 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:24:25,738 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:24:25,743 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:24:25,759 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:24:25,780 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:24:25,796 [INFO] analyzer: Analysis complete
+2025-08-09 18:24:25,817 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:24:25,831 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:24:26,375 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:24:42,457 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:24:42,479 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:24:42,525 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:24:42,530 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:24:47,163 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:24:47,175 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:24:47,183 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:24:47,192 [INFO] simulator: [Sim] Device links started
+2025-08-09 18:24:47,194 [INFO] simulator: [Sim] Device FW1 started
+2025-08-09 18:24:47,205 [INFO] simulator: [Sim] Device M1 started
+2025-08-09 18:24:47,208 [INFO] simulator: [Sim] Device PC1 started
+2025-08-09 18:24:47,215 [INFO] simulator: [Sim] Device PC2 started
+2025-08-09 18:24:47,223 [INFO] simulator: [Sim] Device config started
+2025-08-09 18:24:47,229 [INFO] simulator: [Sim] Device R10 started
+2025-08-09 18:24:47,233 [INFO] simulator: [Sim] Device R11 started
+2025-08-09 18:24:47,238 [INFO] simulator: [Sim] Device R4 started
+2025-08-09 18:24:47,243 [INFO] simulator: [R4] sent HELLO to R5
+2025-08-09 18:24:47,243 [INFO] simulator: [Sim] Device R5 started
+2025-08-09 18:24:47,245 [INFO] simulator: [R5] sent HELLO to R4
+2025-08-09 18:24:47,247 [INFO] simulator: [Sim] Device R6 started
+2025-08-09 18:24:47,248 [INFO] simulator: [Sim] Device R7 started
+2025-08-09 18:24:47,249 [INFO] simulator: [Sim] Device R8 started
+2025-08-09 18:24:47,250 [INFO] simulator: [Sim] Device R9 started
+2025-08-09 18:24:47,255 [INFO] simulator: [Sim] Device S1 started
+2025-08-09 18:24:47,257 [INFO] simulator: [Sim] Device S2 started
+2025-08-09 18:24:47,261 [INFO] simulator: [Sim] Device S3 started
+2025-08-09 18:24:47,265 [INFO] simulator: [Sim] Device Server1 started
+2025-08-09 18:24:47,266 [INFO] simulator: [Sim] Device Server2 started
+2025-08-09 18:24:47,272 [INFO] simulator: Simulation started for Day-1
+2025-08-09 18:24:47,272 [INFO] simulator: [R5] Received HELLO from R4
+2025-08-09 18:24:47,277 [INFO] simulator: [R4] Received HELLO from R5
+2025-08-09 18:24:52,274 [INFO] simulator: [Sim] Device links stopped
+2025-08-09 18:24:52,275 [INFO] simulator: [Sim] Device FW1 stopped
+2025-08-09 18:24:52,276 [INFO] simulator: [Sim] Device M1 stopped
+2025-08-09 18:24:52,277 [INFO] simulator: [Sim] Device PC1 stopped
+2025-08-09 18:24:52,278 [INFO] simulator: [Sim] Device PC2 stopped
+2025-08-09 18:24:52,279 [INFO] simulator: [Sim] Device config stopped
+2025-08-09 18:24:52,280 [INFO] simulator: [Sim] Device R10 stopped
+2025-08-09 18:24:52,281 [INFO] simulator: [Sim] Device R11 stopped
+2025-08-09 18:24:52,283 [INFO] simulator: [Sim] Device R4 stopped
+2025-08-09 18:24:52,284 [INFO] simulator: [Sim] Device R5 stopped
+2025-08-09 18:24:52,285 [INFO] simulator: [Sim] Device R6 stopped
+2025-08-09 18:24:52,286 [INFO] simulator: [Sim] Device R7 stopped
+2025-08-09 18:24:52,288 [INFO] simulator: [Sim] Device R8 stopped
+2025-08-09 18:24:52,289 [INFO] simulator: [Sim] Device R9 stopped
+2025-08-09 18:24:52,290 [INFO] simulator: [Sim] Device S1 stopped
+2025-08-09 18:24:52,292 [INFO] simulator: [Sim] Device S2 stopped
+2025-08-09 18:24:52,300 [INFO] simulator: [Sim] Device S3 stopped
+2025-08-09 18:24:52,302 [INFO] simulator: [Sim] Device Server1 stopped
+2025-08-09 18:24:52,303 [INFO] simulator: [Sim] Device Server2 stopped
+2025-08-09 18:24:52,304 [INFO] simulator: Simulation ended
+2025-08-09 18:24:58,311 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:24:58,316 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:24:58,325 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:24:58,328 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:24:58,460 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:24:58,521 [INFO] analyzer: Analysis complete
+2025-08-09 18:24:58,540 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:24:58,543 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:24:58,899 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:31:45,814 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 18:31:45,819 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 18:31:45,821 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 18:31:45,823 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 18:31:45,824 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 18:31:45,828 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:31:45,829 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 18:31:45,831 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 18:31:45,833 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:31:45,834 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:31:45,837 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 18:31:45,840 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 18:31:45,844 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 18:31:45,845 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 18:31:45,846 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 18:31:45,849 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 18:31:45,852 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 18:31:45,856 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 18:31:45,862 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 18:31:45,864 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 18:31:45,867 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 18:31:48,741 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:31:48,745 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:31:48,750 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:31:48,755 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:31:48,770 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:31:48,773 [INFO] analyzer: Analysis complete
+2025-08-09 18:31:48,777 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:31:48,780 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:31:49,026 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:34:11,677 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 18:34:11,685 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 18:34:11,689 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 18:34:11,691 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 18:34:11,693 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 18:34:11,697 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:34:11,699 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 18:34:11,701 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 18:34:11,705 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:34:11,708 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:34:11,731 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 18:34:11,733 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 18:34:11,740 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 18:34:11,756 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 18:34:11,781 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 18:34:11,784 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 18:34:11,784 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 18:34:11,792 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 18:34:11,794 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 18:34:11,798 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 18:34:11,799 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 18:34:15,859 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:34:15,871 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:34:15,878 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:34:15,890 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:34:15,901 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:34:15,902 [INFO] analyzer: Analysis complete
+2025-08-09 18:34:15,905 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:34:15,907 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:34:16,135 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:36:08,993 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 18:36:09,000 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 18:36:09,003 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 18:36:09,009 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 18:36:09,013 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 18:36:09,016 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:36:09,021 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 18:36:09,024 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 18:36:09,029 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:36:09,031 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:36:09,034 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 18:36:09,038 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 18:36:09,044 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 18:36:09,049 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 18:36:09,051 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 18:36:09,054 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 18:36:09,057 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 18:36:09,058 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 18:36:09,063 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 18:36:09,066 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 18:36:09,070 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 18:36:12,447 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:36:12,451 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:36:12,452 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:36:12,453 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:36:12,459 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:36:12,460 [INFO] analyzer: Analysis complete
+2025-08-09 18:36:12,464 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:36:12,466 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:36:12,599 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:39:43,527 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 18:39:43,538 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 18:39:43,540 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 18:39:43,545 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 18:39:43,548 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 18:39:43,552 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:39:43,554 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 18:39:43,556 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 18:39:43,562 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:39:43,569 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:39:43,581 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 18:39:43,600 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 18:39:43,602 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 18:39:43,613 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 18:39:43,620 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 18:39:43,631 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 18:39:43,633 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 18:39:43,635 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 18:39:43,637 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 18:39:43,639 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 18:39:43,640 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 18:39:46,370 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:39:46,384 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:39:46,393 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:39:46,405 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:39:46,423 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:39:46,432 [INFO] analyzer: Analysis complete
+2025-08-09 18:39:46,435 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:39:46,438 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:39:46,722 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:41:41,525 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 18:41:41,532 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 18:41:41,535 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 18:41:41,537 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 18:41:41,541 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 18:41:41,544 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:41:41,551 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 18:41:41,567 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 18:41:41,572 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:41:41,575 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:41:41,582 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 18:41:41,587 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 18:41:41,604 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 18:41:41,608 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 18:41:41,611 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 18:41:41,621 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 18:41:41,645 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 18:41:41,656 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 18:41:41,658 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 18:41:41,658 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 18:41:41,659 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 18:41:44,167 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:41:44,173 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:41:44,180 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:41:44,186 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:41:44,210 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:41:44,226 [INFO] analyzer: Analysis complete
+2025-08-09 18:41:44,229 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:41:44,235 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:41:44,562 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:47:56,669 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 18:47:56,670 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 18:47:56,671 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 18:47:56,672 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 18:47:56,673 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 18:47:56,674 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:47:56,675 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 18:47:56,677 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 18:47:56,679 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:47:56,680 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:47:56,681 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 18:47:56,683 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 18:47:56,689 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 18:47:56,690 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 18:47:56,691 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 18:47:56,693 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 18:47:56,695 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 18:47:56,696 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 18:47:56,697 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 18:47:56,697 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 18:47:56,698 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 18:48:00,337 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:48:00,346 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:48:00,356 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:48:00,361 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:48:00,379 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:48:00,389 [INFO] analyzer: Analysis complete
+2025-08-09 18:48:00,394 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:48:00,404 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:48:00,643 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 18:48:34,396 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 18:48:34,404 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 18:48:34,408 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 18:48:34,416 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 18:48:34,420 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 18:48:34,423 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:48:34,426 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 18:48:34,442 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 18:48:34,459 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:48:34,501 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 18:48:34,504 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 18:48:34,506 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 18:48:34,511 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 18:48:34,516 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 18:48:34,518 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 18:48:34,520 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 18:48:34,520 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 18:48:34,522 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 18:48:34,523 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 18:48:34,523 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 18:48:34,524 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 18:48:37,519 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 18:48:37,526 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 18:48:37,535 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 18:48:37,540 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:48:37,561 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 18:48:37,566 [INFO] analyzer: Analysis complete
+2025-08-09 18:48:37,570 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 18:48:37,585 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 18:48:37,907 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 19:32:14,789 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 19:32:14,804 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 19:32:14,846 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 19:32:14,857 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 19:32:14,874 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 19:32:14,880 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:32:14,885 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 19:32:14,892 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 19:32:14,917 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:32:14,934 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:32:14,940 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 19:32:14,942 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 19:32:14,945 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 19:32:14,948 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 19:32:14,950 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 19:32:14,955 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 19:32:14,959 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 19:32:14,961 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 19:32:14,962 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 19:32:14,965 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 19:32:14,967 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 19:32:18,932 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 19:32:18,940 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 19:32:18,951 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 19:32:18,959 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 19:32:18,976 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 19:32:18,978 [INFO] analyzer: Analysis complete
+2025-08-09 19:32:18,993 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 19:32:19,008 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 19:32:20,129 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 19:55:59,123 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 19:55:59,128 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 19:55:59,134 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 19:55:59,137 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 19:55:59,149 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 19:55:59,156 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:55:59,162 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 19:55:59,176 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 19:55:59,177 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:55:59,179 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:55:59,186 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 19:55:59,188 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 19:55:59,189 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 19:55:59,190 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 19:55:59,192 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 19:55:59,193 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 19:55:59,195 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 19:55:59,201 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 19:55:59,204 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 19:55:59,205 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 19:55:59,206 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 19:56:03,065 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 19:56:03,068 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface Eth2
+2025-08-09 19:56:03,073 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 19:56:03,080 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 19:56:03,093 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 19:56:03,094 [INFO] analyzer: Analysis complete
+2025-08-09 19:56:03,103 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 19:56:03,108 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 19:56:03,444 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 19:59:12,618 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 19:59:12,620 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 19:59:12,621 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 19:59:12,623 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 19:59:12,624 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 19:59:12,625 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:59:12,626 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 19:59:12,628 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 19:59:12,629 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:59:12,629 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 19:59:12,632 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 19:59:12,633 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 19:59:12,638 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 19:59:12,640 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 19:59:12,641 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 19:59:12,642 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 19:59:12,643 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 19:59:12,644 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 19:59:12,645 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 19:59:12,645 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 19:59:12,646 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 19:59:12,647 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 19:59:12,651 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface eth2
+2025-08-09 19:59:12,653 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 19:59:12,653 [INFO] main: Topology built: 19 nodes, 1 edges
+2025-08-09 19:59:12,654 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 19:59:12,657 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 19:59:12,658 [INFO] analyzer: Analysis complete
+2025-08-09 19:59:12,661 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 19:59:12,662 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-09 19:59:12,666 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 19:59:12,667 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-09 19:59:12,669 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 19:59:12,669 [INFO] recommender: Generated 0 recommendations
+2025-08-09 19:59:12,670 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 19:59:12,671 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 19:59:14,058 [INFO] visualizer: Saved topology image to D:\.vscode\VIP CISCO\network_topology_tool\output\topology.png
+2025-08-09 21:32:08,713 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 21:32:08,734 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 21:32:08,735 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 21:32:08,743 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 21:32:08,745 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 21:32:08,745 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 21:32:08,746 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 21:32:08,747 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 21:32:08,748 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 21:32:08,748 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 21:32:08,749 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 21:32:08,749 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 21:32:08,750 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 21:32:08,750 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 21:32:08,751 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 21:32:08,754 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 21:32:08,756 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 21:32:08,757 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 21:32:08,758 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 21:32:08,758 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 21:32:08,759 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 21:32:08,768 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 21:32:08,788 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface eth2
+2025-08-09 21:32:08,790 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 21:32:09,300 [INFO] visualizer: Saved topology image to ./output/topology.png
+2025-08-09 21:33:33,189 [INFO] main: Interrupted by user. Exiting.
+2025-08-09 22:04:17,544 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 22:04:17,548 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 22:04:17,586 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 22:04:17,627 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 22:04:17,685 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 22:04:17,753 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:04:17,797 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 22:04:17,832 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 22:04:17,837 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:04:17,862 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:04:17,891 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 22:04:17,921 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 22:04:17,951 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 22:04:17,976 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 22:04:18,007 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 22:04:18,038 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 22:04:18,071 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 22:04:18,108 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 22:04:18,143 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 22:04:18,173 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 22:04:18,203 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 22:04:21,512 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 22:04:21,518 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface eth2
+2025-08-09 22:04:21,528 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 22:04:21,543 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:04:21,575 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 22:04:21,578 [INFO] analyzer: Analysis complete
+2025-08-09 22:04:21,586 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:04:21,596 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 22:04:22,973 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 22:23:55,738 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 22:23:55,760 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 22:23:55,806 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 22:23:55,839 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 22:23:55,871 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 22:23:55,901 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:23:55,929 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 22:23:55,963 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 22:23:55,995 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:23:56,037 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:23:56,065 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 22:23:56,096 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 22:23:56,126 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 22:23:56,161 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 22:23:56,201 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 22:23:56,225 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 22:23:56,258 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 22:23:56,306 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 22:23:56,331 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 22:23:56,372 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 22:23:56,394 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 22:23:56,397 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 22:23:56,398 [INFO] topology_builder: Device FW1 iface wan IP: None Mask: None
+2025-08-09 22:23:56,401 [INFO] topology_builder: Device FW1 iface lan IP: None Mask: None
+2025-08-09 22:23:56,403 [INFO] topology_builder: Device M1 iface eth0 IP: None Mask: None
+2025-08-09 22:23:56,409 [INFO] topology_builder: Device PC1 iface eth0 IP: 10.150.1.2 Mask: 255.255.255.0
+2025-08-09 22:23:56,410 [INFO] topology_builder: Device PC2 iface eth0 IP: 10.150.2.2 Mask: 255.255.255.0
+2025-08-09 22:23:56,410 [INFO] topology_builder: Device R10 iface gig0/0 IP: 10.10.0.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,411 [INFO] topology_builder: Device R10 iface gig0/1 IP: 10.10.1.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,411 [INFO] topology_builder: Device R11 iface gig0/0 IP: 10.11.0.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,412 [INFO] topology_builder: Device R11 iface gig0/1 IP: 10.11.1.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,412 [INFO] topology_builder: Device R4 iface eth0 IP: 10.0.24.2 Mask: 255.255.255.0
+2025-08-09 22:23:56,413 [INFO] topology_builder: Device R4 iface eth1 IP: 10.0.34.2 Mask: 255.255.255.0
+2025-08-09 22:23:56,413 [INFO] topology_builder: Device R4 iface eth2 IP: 10.0.45.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,421 [INFO] topology_builder: Device R5 iface eth0 IP: 10.0.45.2 Mask: 255.255.255.0
+2025-08-09 22:23:56,422 [INFO] topology_builder: Device R6 iface gig0/0 IP: 10.6.0.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,424 [INFO] topology_builder: Device R6 iface gig0/1 IP: 10.6.1.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,426 [INFO] topology_builder: Device R7 iface gig0/0 IP: 10.7.0.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,426 [INFO] topology_builder: Device R7 iface gig0/1 IP: 10.7.1.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,427 [INFO] topology_builder: Device R8 iface gig0/0 IP: 10.8.0.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,428 [INFO] topology_builder: Device R8 iface gig0/1 IP: 10.8.1.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,429 [INFO] topology_builder: Device R9 iface gig0/0 IP: 10.9.0.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,429 [INFO] topology_builder: Device R9 iface gig0/1 IP: 10.9.1.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,437 [INFO] topology_builder: Device S1 iface fa0/1 IP: None Mask: None
+2025-08-09 22:23:56,439 [INFO] topology_builder: Device S1 iface fa0/2 IP: None Mask: None
+2025-08-09 22:23:56,440 [INFO] topology_builder: Device S1 iface fa0/3 IP: None Mask: None
+2025-08-09 22:23:56,440 [INFO] topology_builder: Device S1 iface fa0/4 IP: None Mask: None
+2025-08-09 22:23:56,442 [INFO] topology_builder: Device S2 iface fa0/1 IP: None Mask: None
+2025-08-09 22:23:56,444 [INFO] topology_builder: Device S2 iface fa0/2 IP: None Mask: None
+2025-08-09 22:23:56,446 [INFO] topology_builder: Device S2 iface fa0/3 IP: None Mask: None
+2025-08-09 22:23:56,447 [INFO] topology_builder: Device S2 iface fa0/4 IP: None Mask: None
+2025-08-09 22:23:56,448 [INFO] topology_builder: Device S3 iface fa0/1 IP: None Mask: None
+2025-08-09 22:23:56,453 [INFO] topology_builder: Device S3 iface fa0/2 IP: None Mask: None
+2025-08-09 22:23:56,456 [INFO] topology_builder: Device S3 iface fa0/3 IP: None Mask: None
+2025-08-09 22:23:56,458 [INFO] topology_builder: Device S3 iface fa0/4 IP: None Mask: None
+2025-08-09 22:23:56,459 [INFO] topology_builder: Device Server1 iface eth0 IP: 10.200.1.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,460 [INFO] topology_builder: Device Server2 iface eth0 IP: 10.200.2.1 Mask: 255.255.255.0
+2025-08-09 22:23:56,462 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and PC2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,463 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R10:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,464 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R10:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,469 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R11:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,470 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R11:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,470 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,472 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:23:56,473 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:23:56,474 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,475 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,476 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,479 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,481 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,484 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,488 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,490 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,492 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,493 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,496 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,502 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R10:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,503 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R10:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,503 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R11:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,504 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R11:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,505 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,507 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:23:56,508 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:23:56,509 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,510 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,511 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,513 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,514 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,520 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,523 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,525 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,527 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,528 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,529 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,532 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R11:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,535 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R11:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,540 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R11:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,543 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R11:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,549 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,555 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:23:56,556 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:23:56,556 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,557 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:23:56,558 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:23:56,559 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,561 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,562 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,563 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,564 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,564 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,572 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,573 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,575 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,579 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,594 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,595 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,596 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,598 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,605 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,608 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,609 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,611 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,612 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,612 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,613 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,613 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,620 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,623 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:23:56,625 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:23:56,626 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,627 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:23:56,629 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:23:56,630 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,630 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,631 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,631 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,632 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,639 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,641 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,643 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,644 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,646 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,646 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,647 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,647 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,648 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,658 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,660 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,663 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,664 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,669 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,677 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,679 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,681 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,688 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface eth2
+2025-08-09 22:23:56,693 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,693 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,694 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,695 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,695 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,696 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,696 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,698 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,704 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,707 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,708 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,711 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,713 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,715 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,723 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,725 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,727 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,728 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,730 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,731 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,737 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,740 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,741 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,742 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,743 [WARNING] topology_builder: Subnet check failed for R4:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,744 [WARNING] topology_builder: Subnet check failed for R4:eth1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,745 [WARNING] topology_builder: Subnet check failed for R4:eth2 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,746 [WARNING] topology_builder: Subnet check failed for R4:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,747 [WARNING] topology_builder: Subnet check failed for R4:eth1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,748 [WARNING] topology_builder: Subnet check failed for R4:eth2 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,755 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,757 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,759 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,761 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,762 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,764 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,771 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,775 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,776 [WARNING] topology_builder: Subnet check failed for R5:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,777 [WARNING] topology_builder: Subnet check failed for R5:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,777 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,779 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,779 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,779 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,780 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,780 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,781 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,788 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,789 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,791 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,791 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,793 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,793 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,795 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,796 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,798 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,799 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,805 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,807 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,810 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,811 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,813 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,814 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,815 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,820 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,822 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,825 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,826 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,826 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,828 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,829 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:23:56,830 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:23:56,830 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,831 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,831 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,832 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,838 [WARNING] topology_builder: Subnet check failed for R9:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,839 [WARNING] topology_builder: Subnet check failed for R9:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,839 [WARNING] topology_builder: Subnet check failed for R9:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,841 [WARNING] topology_builder: Subnet check failed for R9:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,842 [WARNING] topology_builder: Subnet check failed for Server1:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:23:56,843 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 22:23:56,845 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:23:56,860 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 22:23:56,861 [INFO] analyzer: Analysis complete
+2025-08-09 22:23:56,863 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:23:56,867 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 22:23:58,174 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 22:38:41,666 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 22:38:41,679 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 22:38:41,682 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 22:38:41,685 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 22:38:41,689 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 22:38:41,701 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:38:41,704 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 22:38:41,715 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 22:38:41,717 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:38:41,719 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:38:41,720 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 22:38:41,726 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 22:38:41,735 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 22:38:41,737 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 22:38:41,737 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 22:38:41,739 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 22:38:41,744 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 22:38:41,746 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 22:38:41,748 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 22:38:41,749 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 22:38:41,750 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 22:38:46,258 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:38:46,268 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 22:38:46,271 [INFO] analyzer: Analysis complete
+2025-08-09 22:38:46,278 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:38:46,284 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 22:38:46,870 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 22:41:25,468 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 22:41:25,483 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 22:41:25,486 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 22:41:25,489 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 22:41:25,493 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 22:41:25,508 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:41:25,514 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 22:41:25,523 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 22:41:25,531 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:41:25,537 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:41:25,539 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 22:41:25,553 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 22:41:25,554 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 22:41:25,555 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 22:41:25,557 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 22:41:25,565 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 22:41:25,569 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 22:41:25,572 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 22:41:25,575 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 22:41:25,584 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 22:41:25,586 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 22:41:41,074 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:41:41,084 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 22:41:41,086 [INFO] analyzer: Analysis complete
+2025-08-09 22:41:41,088 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:41:41,090 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 22:41:41,329 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 22:44:06,473 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 22:44:06,478 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 22:44:06,485 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 22:44:06,495 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 22:44:06,502 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 22:44:06,505 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:44:06,506 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 22:44:06,528 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 22:44:06,540 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:44:06,543 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:44:06,545 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 22:44:06,549 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 22:44:06,554 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 22:44:06,558 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 22:44:06,560 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 22:44:06,567 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 22:44:06,574 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 22:44:06,576 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 22:44:06,579 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 22:44:06,583 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 22:44:06,590 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 22:44:10,276 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:44:10,289 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 22:44:10,291 [INFO] analyzer: Analysis complete
+2025-08-09 22:44:10,295 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:44:10,304 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 22:44:10,737 [INFO] visualizer: Saved topology image to output\topology.png
+2025-08-09 22:44:34,140 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 22:44:34,153 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 22:44:34,153 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 22:44:34,159 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 22:44:34,165 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 22:44:34,201 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:44:34,206 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 22:44:34,208 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 22:44:34,216 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:44:34,219 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:44:34,223 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 22:44:34,226 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 22:44:34,236 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 22:44:34,239 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 22:44:34,242 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 22:44:34,249 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 22:44:34,252 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 22:44:34,255 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 22:44:34,258 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 22:44:34,268 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 22:44:34,271 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 22:45:39,732 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-09 22:45:39,746 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-09 22:45:39,749 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-09 22:45:39,752 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-09 22:45:39,770 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-09 22:45:39,777 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:45:39,779 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-09 22:45:39,810 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-09 22:45:39,812 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:45:39,814 [INFO] config_parser: Parsed config (0 interfaces, 0 vlans)
+2025-08-09 22:45:39,818 [INFO] config_parser: Parsed R4 (3 interfaces, 0 vlans)
+2025-08-09 22:45:39,821 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-09 22:45:39,828 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-09 22:45:39,832 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-09 22:45:39,837 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-09 22:45:39,845 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-09 22:45:39,848 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-09 22:45:39,852 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-09 22:45:39,861 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-09 22:45:39,865 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-09 22:45:39,869 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-09 22:45:42,292 [INFO] topology_builder: Added 19 device nodes
+2025-08-09 22:45:42,298 [INFO] topology_builder: Device FW1 iface wan IP: None Mask: None
+2025-08-09 22:45:42,300 [INFO] topology_builder: Device FW1 iface lan IP: None Mask: None
+2025-08-09 22:45:42,303 [INFO] topology_builder: Device M1 iface eth0 IP: None Mask: None
+2025-08-09 22:45:42,307 [INFO] topology_builder: Device PC1 iface eth0 IP: 10.150.1.2 Mask: 255.255.255.0
+2025-08-09 22:45:42,313 [INFO] topology_builder: Device PC2 iface eth0 IP: 10.150.2.2 Mask: 255.255.255.0
+2025-08-09 22:45:42,316 [INFO] topology_builder: Device R10 iface gig0/0 IP: 10.10.0.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,325 [INFO] topology_builder: Device R10 iface gig0/1 IP: 10.10.1.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,328 [INFO] topology_builder: Device R11 iface gig0/0 IP: 10.11.0.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,333 [INFO] topology_builder: Device R11 iface gig0/1 IP: 10.11.1.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,334 [INFO] topology_builder: Device R4 iface eth0 IP: 10.0.24.2 Mask: 255.255.255.0
+2025-08-09 22:45:42,335 [INFO] topology_builder: Device R4 iface eth1 IP: 10.0.34.2 Mask: 255.255.255.0
+2025-08-09 22:45:42,336 [INFO] topology_builder: Device R4 iface eth2 IP: 10.0.45.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,342 [INFO] topology_builder: Device R5 iface eth0 IP: 10.0.45.2 Mask: 255.255.255.0
+2025-08-09 22:45:42,346 [INFO] topology_builder: Device R6 iface gig0/0 IP: 10.6.0.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,357 [INFO] topology_builder: Device R6 iface gig0/1 IP: 10.6.1.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,360 [INFO] topology_builder: Device R7 iface gig0/0 IP: 10.7.0.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,362 [INFO] topology_builder: Device R7 iface gig0/1 IP: 10.7.1.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,363 [INFO] topology_builder: Device R8 iface gig0/0 IP: 10.8.0.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,365 [INFO] topology_builder: Device R8 iface gig0/1 IP: 10.8.1.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,367 [INFO] topology_builder: Device R9 iface gig0/0 IP: 10.9.0.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,368 [INFO] topology_builder: Device R9 iface gig0/1 IP: 10.9.1.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,370 [INFO] topology_builder: Device S1 iface fa0/1 IP: None Mask: None
+2025-08-09 22:45:42,375 [INFO] topology_builder: Device S1 iface fa0/2 IP: None Mask: None
+2025-08-09 22:45:42,376 [INFO] topology_builder: Device S1 iface fa0/3 IP: None Mask: None
+2025-08-09 22:45:42,377 [INFO] topology_builder: Device S1 iface fa0/4 IP: None Mask: None
+2025-08-09 22:45:42,379 [INFO] topology_builder: Device S2 iface fa0/1 IP: None Mask: None
+2025-08-09 22:45:42,380 [INFO] topology_builder: Device S2 iface fa0/2 IP: None Mask: None
+2025-08-09 22:45:42,381 [INFO] topology_builder: Device S2 iface fa0/3 IP: None Mask: None
+2025-08-09 22:45:42,383 [INFO] topology_builder: Device S2 iface fa0/4 IP: None Mask: None
+2025-08-09 22:45:42,385 [INFO] topology_builder: Device S3 iface fa0/1 IP: None Mask: None
+2025-08-09 22:45:42,386 [INFO] topology_builder: Device S3 iface fa0/2 IP: None Mask: None
+2025-08-09 22:45:42,391 [INFO] topology_builder: Device S3 iface fa0/3 IP: None Mask: None
+2025-08-09 22:45:42,394 [INFO] topology_builder: Device S3 iface fa0/4 IP: None Mask: None
+2025-08-09 22:45:42,395 [INFO] topology_builder: Device Server1 iface eth0 IP: 10.200.1.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,397 [INFO] topology_builder: Device Server2 iface eth0 IP: 10.200.2.1 Mask: 255.255.255.0
+2025-08-09 22:45:42,399 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and PC2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,401 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R10:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,402 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R10:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,403 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R11:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,407 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R11:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,408 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,411 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:45:42,412 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:45:42,414 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,415 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,416 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,418 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,420 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,425 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,427 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,428 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,429 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,430 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,432 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,434 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R10:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,437 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R10:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,442 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R11:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,444 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R11:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,445 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,446 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:45:42,450 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:45:42,451 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,453 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,459 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,461 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,463 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,464 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,466 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,467 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,468 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,470 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,475 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,476 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R11:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,479 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R11:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,481 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R11:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,482 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R11:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,483 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,485 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:45:42,486 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:45:42,487 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,493 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:45:42,494 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:45:42,497 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,499 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,500 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,501 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,502 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,504 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,509 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,511 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,513 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,515 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,516 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,517 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,518 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,519 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,520 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,524 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,527 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,528 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,530 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,531 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,533 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,534 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,535 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,536 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:45:42,545 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:45:42,547 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,549 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:eth1 - name 'log' is not defined
+2025-08-09 22:45:42,550 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:eth2 - name 'log' is not defined
+2025-08-09 22:45:42,551 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,552 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,553 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,558 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,561 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,562 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,563 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,565 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,566 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,567 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,568 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,570 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,575 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,578 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,579 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,580 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,581 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,583 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,584 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,585 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,587 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,588 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,591 [INFO] topology_builder: Inferred edge (desc) R4 <-> R5 on iface eth2
+2025-08-09 22:45:42,594 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,595 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,596 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,597 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,599 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,601 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,602 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,603 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,606 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,606 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,610 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,612 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,613 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,616 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,616 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,617 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,618 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,619 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,621 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,623 [WARNING] topology_builder: Subnet check failed for R4:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,626 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,628 [WARNING] topology_builder: Subnet check failed for R4:eth1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,630 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,631 [WARNING] topology_builder: Subnet check failed for R4:eth2 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,632 [WARNING] topology_builder: Subnet check failed for R4:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,634 [WARNING] topology_builder: Subnet check failed for R4:eth1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,635 [WARNING] topology_builder: Subnet check failed for R4:eth2 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,636 [WARNING] topology_builder: Subnet check failed for R4:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,638 [WARNING] topology_builder: Subnet check failed for R4:eth1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,641 [WARNING] topology_builder: Subnet check failed for R4:eth2 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,644 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,645 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,646 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,647 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,649 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,650 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,651 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,652 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,653 [WARNING] topology_builder: Subnet check failed for R5:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,657 [WARNING] topology_builder: Subnet check failed for R5:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,660 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,663 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,664 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,665 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,666 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,667 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,668 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,669 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,675 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,676 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,678 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,679 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,680 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,682 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,683 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,684 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,685 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,686 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,697 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,699 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,700 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,701 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,702 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,706 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,712 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,713 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,714 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,715 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,716 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,718 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,718 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-09 22:45:42,720 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-09 22:45:42,727 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,728 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,729 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,730 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,731 [WARNING] topology_builder: Subnet check failed for R9:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,733 [WARNING] topology_builder: Subnet check failed for R9:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,734 [WARNING] topology_builder: Subnet check failed for R9:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,736 [WARNING] topology_builder: Subnet check failed for R9:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,736 [WARNING] topology_builder: Subnet check failed for Server1:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-09 22:45:42,742 [INFO] topology_builder: Final topology: nodes=19 edges=1
+2025-08-09 22:45:42,750 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:45:42,765 [INFO] bandwidth_checker: Bandwidth check done: 1 links — avg utilization 0.02
+2025-08-09 22:45:42,768 [INFO] analyzer: Analysis complete
+2025-08-09 22:45:42,771 [INFO] validator: Validation complete, 0 issues found
+2025-08-09 22:45:42,781 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-09 22:45:43,313 [INFO] visualizer: Saved topology image to output\topology.png

@@ -1,5 +1,12 @@
-R1:Eth0 - R2:Eth0
-R1:Eth1 - R3:Eth0
-R2:Eth1 - R4:Eth0
-R3:Eth1 - R4:Eth1
-R4:Eth2 - R5:Eth0
+R1:Gig0/0 - R2:Gig0/0
+R1:Gig0/1 - R3:Gig0/0
+R2:Gig0/1 - R4:Gig0/0
+R3:Gig0/1 - S1:Fa0/1
+R4:Gig0/1 - S2:Fa0/1
+M1:Eth0 - FW1:WAN
+FW1:LAN - S2:Fa0/2
+S1:Fa0/2 - PC1:Eth0
+S2:Fa0/2 - PC2:Eth0
+S1:Fa0/3 - Server1:Eth0
+S2:Fa0/3 - Server2:Eth0
+R3:Gig0/1 - Server1:Eth0

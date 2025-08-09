@@ -21,9 +21,13 @@ def is_same_subnet(ip1: str, mask1: str, ip2: str, mask2: str) -> bool:
     try:
         n1 = ipaddress.IPv4Network(f"{ip1}/{mask1}", strict=False)
         n2 = ipaddress.IPv4Network(f"{ip2}/{mask2}", strict=False)
-        return n1.network_address == n2.network_address and n1.prefixlen == n2.prefixlen
-    except Exception:
+        result = n1.network_address == n2.network_address and n1.prefixlen == n2.prefixlen
+        log.debug(f"is_same_subnet: {ip1}/{mask1} vs {ip2}/{mask2} -> {result}")
+        return result
+    except Exception as e:
+        log.warning(f"is_same_subnet failed for {ip1}/{mask1} vs {ip2}/{mask2}: {e}")
         return False
+
 
 
 def ensure_dir(path: str):
