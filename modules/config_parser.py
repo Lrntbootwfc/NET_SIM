@@ -11,7 +11,8 @@ Outputs:
 import os
 import re
 from typing import Dict
-from .logger import get_logger
+#sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from modules.logger import get_logger
 
 log = get_logger("config_parser")
 
@@ -87,44 +88,44 @@ def parse_all_configs(dir_path: str) -> Dict[str, Dict]:
 def parse_links_file(path: str) -> list[tuple[str, str]]:
     """
     Parses a links file with format:
-    Device1:Interface1 - Device2:Interface2
-    
-    Returns a list of tuples with connected endpoints, e.g.:
-    [("R1:Gig0/1", "R2:Gig0/1"), ("R1:Gig0/2", "SW1:Gig1/0")]
+    device1:interface1 - device2:interface2
+    Returns a sorted list of unique tuples with connected endpoints, all in lowercase.
     """
-    links = []
+    links_set = set()
     
     if not os.path.isfile(path):
         log.error("Links file not found: %s", path)
-        return links
-        
-        # existing code ...
+        return []
 
     try:
         with open(path, "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
-                print(f"Parsing link line: '{line}'")
+                
                 if not line or line.startswith("#"):
                     continue
                 if "-" not in line:
                     log.warning("Skipping invalid link line (missing '-'): %s", line)
                     continue
+                
                 left, right = line.split("-", 1)
-                left = left.strip()
-                right = right.strip()
+                left = left.strip().lower()
+                right = right.strip().lower()
 
-                # Validate format: must contain device:interface
+                
                 if ":" not in left or ":" not in right:
                     log.warning("Skipping invalid link line (missing ':'): %s", line)
                     continue
 
-                links.append((left, right))
+                links_set.add(tuple(sorted([left, right])))
+
     except Exception as e:
         log.error("Error reading links file %s: %s", path, e)
 
-    log.info("Parsed %d links from %s", len(links), path)
+    links = sorted(links_set)
+    log.info("Parsed %d unique links from %s", len(links), path)
     return links
+
 
 import json
 

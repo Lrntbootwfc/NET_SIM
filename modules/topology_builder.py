@@ -31,10 +31,11 @@ def build_topology(parsed_configs: Dict[str, Dict], config_dir: Optional[str] = 
     Returns:
         networkx.Graph with nodes and edges with attributes
     """
-    G = nx.Graph()
+    G = nx.MultiGraph()
     
     # Add nodes with parsed config as attribute, normalize interface keys
     for host, pdata in parsed_configs.items():
+        #ost_lc = host.strip().lower()
         if "interfaces" in pdata:
             interfaces = pdata["interfaces"]
             if isinstance(interfaces, list):
@@ -46,6 +47,7 @@ def build_topology(parsed_configs: Dict[str, Dict], config_dir: Optional[str] = 
     
     # Log IP and mask of each interface for debugging
     for host, pdata in parsed_configs.items():
+        #ost_lc = host.strip().lower()
         for ifname, ifdata in pdata.get("interfaces", {}).items():
             ip = ifdata.get("ip", None)
             mask = ifdata.get("mask", None)
@@ -61,9 +63,9 @@ def build_topology(parsed_configs: Dict[str, Dict], config_dir: Optional[str] = 
                 try:
                     dev1, if1 = ep1.split(":")
                     dev2, if2 = ep2.split(":")
-                    dev1 = dev1.strip()
+                    dev1 = dev1.strip().lower()
                     if1 = if1.strip().lower()
-                    dev2 = dev2.strip()
+                    dev2 = dev2.strip().lower()
                     if2 = if2.strip().lower()
                     explicit_links.append((dev1, if1, dev2, if2))
                 except Exception as e:
@@ -78,10 +80,10 @@ def build_topology(parsed_configs: Dict[str, Dict], config_dir: Optional[str] = 
             interfaces1 = parsed_configs.get(dev1, {}).get("interfaces", {})
             interfaces2 = parsed_configs.get(dev2, {}).get("interfaces", {})
             if if1 not in interfaces1:
-                log.warning(f"Interface '{if1}' not found on device '{dev1}', skipping edge")
+                log.warning(f"[SKIP EDGE] {dev1}:{if1} not found. Available on {dev1}: {list(interfaces1.keys())}")
                 continue
             if if2 not in interfaces2:
-                log.warning(f"Interface '{if2}' not found on device '{dev2}', skipping edge")
+                log.warning(f"[SKIP EDGE] {dev2}:{if2} not found. Available on {dev2}: {list(interfaces2.keys())}")
                 continue
 
             mtu1 = interfaces1.get(if1, {}).get("mtu", 1500)
