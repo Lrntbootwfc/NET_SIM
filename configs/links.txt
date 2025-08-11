@@ -2,18 +2,5 @@ r1:gig0/0 - r2:gig0/0
 r1:gig0/1 - r3:gig0/0
 r2:gig0/1 - r4:gig0/0
 r3:gig0/1 - s1:fa0/1
-r4:gig0/1 - s2:fa0/1
-m1:eth0 - fw1:wan
-fw1:lan - s2:fa0/2
-s1:fa0/2 - pc1:eth0
-s2:fa0/2 - pc2:eth0
-s1:fa0/3 - server1:eth0
-s2:fa0/3 - server2:eth0
-r3:gig0/1 - server1:eth0
-s1:fa0/4 - s2:fa0/4
-r5:eth0 - r6:gig0/0
-r6:gig0/1 - r7:gig0/0
-r7:gig0/1 - r8:gig0/0
-r8:gig0/1 - r9:gig0/0
-r9:gig0/1 - r10:gig0/0
-r10:gig0/1 - r11:gig0/0
+r4:gig0/1 - s1:fa0/2
+

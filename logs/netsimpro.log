@@ -9745,3 +9745,712 @@
 2025-08-10 21:04:00,959 [WARNING] topology_builder: Subnet check failed for Server1:eth0 and Server2:eth0 - name 'log' is not defined
 2025-08-10 21:04:00,959 [INFO] topology_builder: Final topology: nodes=21 edges=5
 2025-08-10 21:04:01,243 [INFO] visualizer: Saved topology image to ./output/topology.png
+2025-08-11 11:24:29,669 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-11 11:24:29,698 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-11 11:24:29,736 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-11 11:24:29,793 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-11 11:24:29,808 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-11 11:24:29,833 [INFO] config_parser: Parsed R1 (2 interfaces, 0 vlans)
+2025-08-11 11:24:29,867 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-11 11:24:29,891 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-11 11:24:29,920 [INFO] config_parser: Parsed R2 (2 interfaces, 0 vlans)
+2025-08-11 11:24:29,957 [INFO] config_parser: Parsed R3 (2 interfaces, 0 vlans)
+2025-08-11 11:24:29,972 [INFO] config_parser: Parsed R4 (2 interfaces, 0 vlans)
+2025-08-11 11:24:29,992 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-11 11:24:30,021 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-11 11:24:30,039 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-11 11:24:30,058 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-11 11:24:30,081 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-11 11:24:30,101 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-11 11:24:30,122 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-11 11:24:30,150 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-11 11:24:30,172 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-11 11:24:30,199 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-11 11:24:30,201 [INFO] topology_builder: Added 21 device nodes
+2025-08-11 11:24:30,202 [INFO] topology_builder: Device FW1 iface wan IP: None Mask: None
+2025-08-11 11:24:30,203 [INFO] topology_builder: Device FW1 iface lan IP: None Mask: None
+2025-08-11 11:24:30,205 [INFO] topology_builder: Device M1 iface eth0 IP: None Mask: None
+2025-08-11 11:24:30,209 [INFO] topology_builder: Device PC1 iface eth0 IP: 10.150.1.2 Mask: 255.255.255.0
+2025-08-11 11:24:30,216 [INFO] topology_builder: Device PC2 iface eth0 IP: 10.150.2.2 Mask: 255.255.255.0
+2025-08-11 11:24:30,217 [INFO] topology_builder: Device R1 iface gig0/0 IP: 192.168.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,218 [INFO] topology_builder: Device R1 iface gig0/1 IP: 10.0.0.1 Mask: 255.255.255.252
+2025-08-11 11:24:30,219 [INFO] topology_builder: Device R10 iface gig0/0 IP: 10.10.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,219 [INFO] topology_builder: Device R10 iface gig0/1 IP: 10.10.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,220 [INFO] topology_builder: Device R11 iface gig0/0 IP: 10.11.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,222 [INFO] topology_builder: Device R11 iface gig0/1 IP: 10.11.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,222 [INFO] topology_builder: Device R2 iface gig0/0 IP: 192.168.1.2 Mask: 255.255.255.0
+2025-08-11 11:24:30,223 [INFO] topology_builder: Device R2 iface gig0/1 IP: 172.16.0.1 Mask: 255.255.255.252
+2025-08-11 11:24:30,224 [INFO] topology_builder: Device R3 iface gig0/0 IP: 10.0.0.2 Mask: 255.255.255.252
+2025-08-11 11:24:30,227 [INFO] topology_builder: Device R3 iface gig0/1 IP: 192.168.2.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,230 [INFO] topology_builder: Device R4 iface gig0/0 IP: 10.0.0.2 Mask: 255.255.255.252
+2025-08-11 11:24:30,231 [INFO] topology_builder: Device R4 iface gig0/1 IP: 192.168.2.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,231 [INFO] topology_builder: Device R5 iface eth0 IP: 10.0.45.2 Mask: 255.255.255.0
+2025-08-11 11:24:30,232 [INFO] topology_builder: Device R6 iface gig0/0 IP: 10.6.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,233 [INFO] topology_builder: Device R6 iface gig0/1 IP: 10.6.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,235 [INFO] topology_builder: Device R7 iface gig0/0 IP: 10.7.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,236 [INFO] topology_builder: Device R7 iface gig0/1 IP: 10.7.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,237 [INFO] topology_builder: Device R8 iface gig0/0 IP: 10.8.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,237 [INFO] topology_builder: Device R8 iface gig0/1 IP: 10.8.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,238 [INFO] topology_builder: Device R9 iface gig0/0 IP: 10.9.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,238 [INFO] topology_builder: Device R9 iface gig0/1 IP: 10.9.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,239 [INFO] topology_builder: Device S1 iface fa0/1 IP: None Mask: None
+2025-08-11 11:24:30,240 [INFO] topology_builder: Device S1 iface fa0/2 IP: None Mask: None
+2025-08-11 11:24:30,240 [INFO] topology_builder: Device S1 iface fa0/3 IP: None Mask: None
+2025-08-11 11:24:30,241 [INFO] topology_builder: Device S1 iface fa0/4 IP: None Mask: None
+2025-08-11 11:24:30,242 [INFO] topology_builder: Device S2 iface fa0/1 IP: None Mask: None
+2025-08-11 11:24:30,243 [INFO] topology_builder: Device S2 iface fa0/2 IP: None Mask: None
+2025-08-11 11:24:30,246 [INFO] topology_builder: Device S2 iface fa0/3 IP: None Mask: None
+2025-08-11 11:24:30,247 [INFO] topology_builder: Device S2 iface fa0/4 IP: None Mask: None
+2025-08-11 11:24:30,248 [INFO] topology_builder: Device S3 iface fa0/1 IP: None Mask: None
+2025-08-11 11:24:30,248 [INFO] topology_builder: Device S3 iface fa0/2 IP: None Mask: None
+2025-08-11 11:24:30,249 [INFO] topology_builder: Device S3 iface fa0/3 IP: None Mask: None
+2025-08-11 11:24:30,249 [INFO] topology_builder: Device S3 iface fa0/4 IP: None Mask: None
+2025-08-11 11:24:30,249 [INFO] topology_builder: Device Server1 iface eth0 IP: 10.200.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,249 [INFO] topology_builder: Device Server2 iface eth0 IP: 10.200.2.1 Mask: 255.255.255.0
+2025-08-11 11:24:30,250 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and PC2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,250 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R1:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,251 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R1:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,251 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R10:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,253 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R10:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,253 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,255 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,256 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,256 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,257 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,257 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,258 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,259 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,264 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,265 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,266 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,267 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,267 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,268 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,269 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,272 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,273 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,273 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,274 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,274 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R1:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,275 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R1:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,281 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R10:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,287 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R10:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,288 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,289 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,289 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,290 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,290 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,290 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,291 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,291 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,299 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,301 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,303 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,305 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,306 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,307 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,311 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,314 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,315 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,316 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,316 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,316 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R10:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,317 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R10:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,318 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R10:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,320 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R10:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,320 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,321 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,321 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,321 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,322 [INFO] topology_builder: Inferred edge (desc) R1 <-> R2 on iface gig0/0
+2025-08-11 11:24:30,323 [INFO] topology_builder: Inferred edge (desc) R1 <-> R3 on iface gig0/1
+2025-08-11 11:24:30,323 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,325 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,327 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,332 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,334 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,335 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,336 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,337 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,337 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,338 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,339 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,339 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,340 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,340 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,341 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,345 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,347 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,348 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,349 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,349 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,349 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,350 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,350 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,351 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,352 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,352 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,352 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,353 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,354 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,354 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,355 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,355 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,355 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,356 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,356 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,356 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,356 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,357 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,360 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,361 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,364 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,365 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,365 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,366 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,366 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,366 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,367 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,367 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,368 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,369 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,369 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,370 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,371 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,371 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,372 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,372 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,372 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,372 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,372 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,373 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,373 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,374 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,375 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,377 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,378 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,380 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,381 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,381 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,382 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,382 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,386 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,386 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,387 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,387 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,388 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,388 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,388 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,389 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,390 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,390 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,390 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,391 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,391 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,392 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,395 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,398 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,399 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,399 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,400 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,400 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,401 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,403 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,404 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,404 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,405 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,406 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,406 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,406 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,407 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,407 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,408 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,409 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,412 [INFO] topology_builder: Inferred edge (desc) R2 <-> R4 on iface gig0/1
+2025-08-11 11:24:30,415 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,415 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,415 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,415 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,419 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,420 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,420 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,421 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,421 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,421 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,422 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,424 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,425 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,425 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,428 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,429 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,431 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,432 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,432 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,432 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,435 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,435 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,436 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,436 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,437 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,437 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,437 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,438 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,438 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,438 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,439 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,439 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,439 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,439 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,440 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,440 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,441 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,442 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,443 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,445 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,445 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,448 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,449 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,450 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,450 [INFO] topology_builder: Inferred edge (desc) R3 <-> S1 on iface gig0/1
+2025-08-11 11:24:30,451 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,451 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,452 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,452 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,453 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,453 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,454 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,454 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,455 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,455 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,455 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,455 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,456 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,456 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,456 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,457 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,457 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,458 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,459 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,460 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,461 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,463 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,465 [INFO] topology_builder: Inferred edge (desc) R4 <-> S1 on iface gig0/1
+2025-08-11 11:24:30,465 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,465 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,467 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,468 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,468 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,469 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,469 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,469 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,469 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,470 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,470 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,470 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,470 [WARNING] topology_builder: Subnet check failed for R5:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,471 [WARNING] topology_builder: Subnet check failed for R5:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,471 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,471 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,471 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,472 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,472 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,472 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,473 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,473 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,475 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,478 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,482 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,482 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,482 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,482 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,483 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,483 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,483 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,483 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,484 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,484 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,485 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,485 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,485 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,486 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,486 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,487 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,487 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,487 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,488 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,488 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,488 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:30,488 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:30,489 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,489 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,489 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,489 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,490 [WARNING] topology_builder: Subnet check failed for R9:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,490 [WARNING] topology_builder: Subnet check failed for R9:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,490 [WARNING] topology_builder: Subnet check failed for R9:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,491 [WARNING] topology_builder: Subnet check failed for R9:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,492 [WARNING] topology_builder: Subnet check failed for Server1:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:30,495 [INFO] topology_builder: Final topology: nodes=21 edges=5
+2025-08-11 11:24:30,495 [INFO] main: Topology built: 21 nodes, 5 edges
+2025-08-11 11:24:30,499 [ERROR] validator: Cycle detection error: not implemented for multigraph type
+2025-08-11 11:24:30,500 [INFO] validator: Validation complete, 0 issues found
+2025-08-11 11:24:30,503 [INFO] bandwidth_checker: Bandwidth check done: 5 links — avg utilization 0.06
+2025-08-11 11:24:30,503 [INFO] analyzer: Analysis complete
+2025-08-11 11:24:30,507 [INFO] bandwidth_checker: Bandwidth check done: 5 links — avg utilization 0.06
+2025-08-11 11:24:30,507 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-11 11:24:30,513 [INFO] bandwidth_checker: Bandwidth check done: 5 links — avg utilization 0.06
+2025-08-11 11:24:30,514 [INFO] optimizer: Optimization suggestions produced: 0
+2025-08-11 11:24:30,516 [ERROR] validator: Cycle detection error: not implemented for multigraph type
+2025-08-11 11:24:30,517 [INFO] validator: Validation complete, 0 issues found
+2025-08-11 11:24:30,517 [INFO] recommender: Generated 0 recommendations
+2025-08-11 11:24:30,518 [ERROR] validator: Cycle detection error: not implemented for multigraph type
+2025-08-11 11:24:30,518 [INFO] validator: Validation complete, 0 issues found
+2025-08-11 11:24:30,518 [INFO] autofix: Wrote 0 fixes to D:\.vscode\VIP CISCO\network_topology_tool\auto_fixes\auto_fixes.txt
+2025-08-11 11:24:32,406 [INFO] visualizer: Saved topology image to D:\.vscode\VIP CISCO\network_topology_tool\output\topology.png
+2025-08-11 11:24:35,529 [INFO] config_parser: Parsed links (0 interfaces, 0 vlans)
+2025-08-11 11:24:35,531 [INFO] config_parser: Parsed FW1 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,532 [INFO] config_parser: Parsed M1 (1 interfaces, 0 vlans)
+2025-08-11 11:24:35,533 [INFO] config_parser: Parsed PC1 (1 interfaces, 0 vlans)
+2025-08-11 11:24:35,534 [INFO] config_parser: Parsed PC2 (1 interfaces, 0 vlans)
+2025-08-11 11:24:35,539 [INFO] config_parser: Parsed R1 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,540 [INFO] config_parser: Parsed R10 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,549 [INFO] config_parser: Parsed R11 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,550 [INFO] config_parser: Parsed R2 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,551 [INFO] config_parser: Parsed R3 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,552 [INFO] config_parser: Parsed R4 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,553 [INFO] config_parser: Parsed R5 (1 interfaces, 0 vlans)
+2025-08-11 11:24:35,554 [INFO] config_parser: Parsed R6 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,555 [INFO] config_parser: Parsed R7 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,556 [INFO] config_parser: Parsed R8 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,561 [INFO] config_parser: Parsed R9 (2 interfaces, 0 vlans)
+2025-08-11 11:24:35,562 [INFO] config_parser: Parsed S1 (4 interfaces, 0 vlans)
+2025-08-11 11:24:35,564 [INFO] config_parser: Parsed S2 (4 interfaces, 0 vlans)
+2025-08-11 11:24:35,566 [INFO] config_parser: Parsed S3 (4 interfaces, 0 vlans)
+2025-08-11 11:24:35,567 [INFO] config_parser: Parsed Server1 (1 interfaces, 0 vlans)
+2025-08-11 11:24:35,568 [INFO] config_parser: Parsed Server2 (1 interfaces, 0 vlans)
+2025-08-11 11:24:35,568 [INFO] topology_builder: Added 21 device nodes
+2025-08-11 11:24:35,569 [INFO] topology_builder: Device FW1 iface wan IP: None Mask: None
+2025-08-11 11:24:35,569 [INFO] topology_builder: Device FW1 iface lan IP: None Mask: None
+2025-08-11 11:24:35,569 [INFO] topology_builder: Device M1 iface eth0 IP: None Mask: None
+2025-08-11 11:24:35,570 [INFO] topology_builder: Device PC1 iface eth0 IP: 10.150.1.2 Mask: 255.255.255.0
+2025-08-11 11:24:35,570 [INFO] topology_builder: Device PC2 iface eth0 IP: 10.150.2.2 Mask: 255.255.255.0
+2025-08-11 11:24:35,571 [INFO] topology_builder: Device R1 iface gig0/0 IP: 192.168.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,571 [INFO] topology_builder: Device R1 iface gig0/1 IP: 10.0.0.1 Mask: 255.255.255.252
+2025-08-11 11:24:35,571 [INFO] topology_builder: Device R10 iface gig0/0 IP: 10.10.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,571 [INFO] topology_builder: Device R10 iface gig0/1 IP: 10.10.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,572 [INFO] topology_builder: Device R11 iface gig0/0 IP: 10.11.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,572 [INFO] topology_builder: Device R11 iface gig0/1 IP: 10.11.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,572 [INFO] topology_builder: Device R2 iface gig0/0 IP: 192.168.1.2 Mask: 255.255.255.0
+2025-08-11 11:24:35,574 [INFO] topology_builder: Device R2 iface gig0/1 IP: 172.16.0.1 Mask: 255.255.255.252
+2025-08-11 11:24:35,576 [INFO] topology_builder: Device R3 iface gig0/0 IP: 10.0.0.2 Mask: 255.255.255.252
+2025-08-11 11:24:35,577 [INFO] topology_builder: Device R3 iface gig0/1 IP: 192.168.2.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,580 [INFO] topology_builder: Device R4 iface gig0/0 IP: 10.0.0.2 Mask: 255.255.255.252
+2025-08-11 11:24:35,580 [INFO] topology_builder: Device R4 iface gig0/1 IP: 192.168.2.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,581 [INFO] topology_builder: Device R5 iface eth0 IP: 10.0.45.2 Mask: 255.255.255.0
+2025-08-11 11:24:35,581 [INFO] topology_builder: Device R6 iface gig0/0 IP: 10.6.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,583 [INFO] topology_builder: Device R6 iface gig0/1 IP: 10.6.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,583 [INFO] topology_builder: Device R7 iface gig0/0 IP: 10.7.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,584 [INFO] topology_builder: Device R7 iface gig0/1 IP: 10.7.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,584 [INFO] topology_builder: Device R8 iface gig0/0 IP: 10.8.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,585 [INFO] topology_builder: Device R8 iface gig0/1 IP: 10.8.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,585 [INFO] topology_builder: Device R9 iface gig0/0 IP: 10.9.0.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,585 [INFO] topology_builder: Device R9 iface gig0/1 IP: 10.9.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,586 [INFO] topology_builder: Device S1 iface fa0/1 IP: None Mask: None
+2025-08-11 11:24:35,587 [INFO] topology_builder: Device S1 iface fa0/2 IP: None Mask: None
+2025-08-11 11:24:35,587 [INFO] topology_builder: Device S1 iface fa0/3 IP: None Mask: None
+2025-08-11 11:24:35,587 [INFO] topology_builder: Device S1 iface fa0/4 IP: None Mask: None
+2025-08-11 11:24:35,588 [INFO] topology_builder: Device S2 iface fa0/1 IP: None Mask: None
+2025-08-11 11:24:35,588 [INFO] topology_builder: Device S2 iface fa0/2 IP: None Mask: None
+2025-08-11 11:24:35,588 [INFO] topology_builder: Device S2 iface fa0/3 IP: None Mask: None
+2025-08-11 11:24:35,589 [INFO] topology_builder: Device S2 iface fa0/4 IP: None Mask: None
+2025-08-11 11:24:35,589 [INFO] topology_builder: Device S3 iface fa0/1 IP: None Mask: None
+2025-08-11 11:24:35,590 [INFO] topology_builder: Device S3 iface fa0/2 IP: None Mask: None
+2025-08-11 11:24:35,595 [INFO] topology_builder: Device S3 iface fa0/3 IP: None Mask: None
+2025-08-11 11:24:35,596 [INFO] topology_builder: Device S3 iface fa0/4 IP: None Mask: None
+2025-08-11 11:24:35,597 [INFO] topology_builder: Device Server1 iface eth0 IP: 10.200.1.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,598 [INFO] topology_builder: Device Server2 iface eth0 IP: 10.200.2.1 Mask: 255.255.255.0
+2025-08-11 11:24:35,599 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and PC2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,600 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R1:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,600 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R1:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,601 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R10:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,601 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R10:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,602 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,602 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,602 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,603 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,603 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,604 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,606 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,607 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,607 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,608 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,609 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,609 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,610 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,611 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,612 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,612 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,613 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,614 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,615 [WARNING] topology_builder: Subnet check failed for PC1:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,616 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R1:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,617 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R1:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,618 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R10:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,618 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R10:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,619 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,619 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,620 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,621 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,622 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,622 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,622 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,626 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,629 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,631 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,632 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,632 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,633 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,633 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,634 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,635 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,636 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,637 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,638 [WARNING] topology_builder: Subnet check failed for PC2:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,638 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R10:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,638 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R10:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,639 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R10:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,640 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R10:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,640 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,642 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,646 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,646 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,648 [INFO] topology_builder: Inferred edge (desc) R1 <-> R2 on iface gig0/0
+2025-08-11 11:24:35,648 [INFO] topology_builder: Inferred edge (desc) R1 <-> R3 on iface gig0/1
+2025-08-11 11:24:35,649 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,649 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,650 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,651 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,652 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,652 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,653 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,653 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,654 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,655 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,655 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,656 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,656 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,657 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,659 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,662 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,662 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,664 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,665 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,666 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,666 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,667 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,668 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,668 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,668 [WARNING] topology_builder: Subnet check failed for R1:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,669 [WARNING] topology_builder: Subnet check failed for R1:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,669 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,669 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,670 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R11:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,670 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R11:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,670 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,671 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,671 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,671 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,672 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,672 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,672 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,674 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,678 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,679 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,680 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,680 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,683 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,683 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,684 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,684 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,684 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,684 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,685 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,685 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,685 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,685 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,686 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,686 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,686 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,687 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,687 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,687 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,687 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,688 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,688 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,689 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,689 [WARNING] topology_builder: Subnet check failed for R10:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,689 [WARNING] topology_builder: Subnet check failed for R10:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,690 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,690 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,691 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R2:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,695 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R2:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,696 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,697 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,698 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,698 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,699 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,699 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,699 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,700 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,701 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,701 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,701 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,702 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,702 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,703 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,703 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,705 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,705 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,705 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,706 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,706 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,707 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,707 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,707 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,708 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,712 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,713 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,714 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,715 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,715 [WARNING] topology_builder: Subnet check failed for R11:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,715 [WARNING] topology_builder: Subnet check failed for R11:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,716 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,716 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,717 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R3:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,717 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R3:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,717 [INFO] topology_builder: Inferred edge (desc) R2 <-> R4 on iface gig0/1
+2025-08-11 11:24:35,717 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,718 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,718 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,718 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,718 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,719 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,719 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,719 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,719 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,720 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,720 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,720 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,721 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,721 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,721 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,722 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,722 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,722 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,722 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,724 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,724 [WARNING] topology_builder: Subnet check failed for R2:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,726 [WARNING] topology_builder: Subnet check failed for R2:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,729 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,730 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,731 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R4:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,731 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R4:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,732 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,732 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,732 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,733 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,733 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,733 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,734 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,734 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,734 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,734 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,735 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,735 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,735 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,736 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,736 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,736 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,737 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,737 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,737 [INFO] topology_builder: Inferred edge (desc) R3 <-> S1 on iface gig0/1
+2025-08-11 11:24:35,737 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,738 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,738 [WARNING] topology_builder: Subnet check failed for R3:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,738 [WARNING] topology_builder: Subnet check failed for R3:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,739 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,739 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R5:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,739 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,740 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,740 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,741 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,747 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,748 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,748 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,749 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,749 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,749 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,749 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,750 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,750 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,750 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,751 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,751 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,751 [INFO] topology_builder: Inferred edge (desc) R4 <-> S1 on iface gig0/1
+2025-08-11 11:24:35,752 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,752 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,752 [WARNING] topology_builder: Subnet check failed for R4:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,753 [WARNING] topology_builder: Subnet check failed for R4:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,753 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R6:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,753 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R6:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,753 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,754 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,754 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,755 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,755 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,755 [WARNING] topology_builder: Subnet check failed for R5:eth0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,756 [WARNING] topology_builder: Subnet check failed for R5:eth0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,756 [WARNING] topology_builder: Subnet check failed for R5:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,757 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,757 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,758 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R7:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,759 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R7:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,761 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,762 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,763 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,764 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,765 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,765 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,766 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,766 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,767 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,767 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,768 [WARNING] topology_builder: Subnet check failed for R6:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,768 [WARNING] topology_builder: Subnet check failed for R6:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,768 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,769 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,769 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R8:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,770 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R8:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,770 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,770 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,771 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,771 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,772 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,772 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,772 [WARNING] topology_builder: Subnet check failed for R7:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,773 [WARNING] topology_builder: Subnet check failed for R7:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,773 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,778 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,783 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and R9:gig0/0 - name 'log' is not defined
+2025-08-11 11:24:35,784 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and R9:gig0/1 - name 'log' is not defined
+2025-08-11 11:24:35,784 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,785 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,785 [WARNING] topology_builder: Subnet check failed for R8:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,786 [WARNING] topology_builder: Subnet check failed for R8:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,787 [WARNING] topology_builder: Subnet check failed for R9:gig0/0 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,787 [WARNING] topology_builder: Subnet check failed for R9:gig0/1 and Server1:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,788 [WARNING] topology_builder: Subnet check failed for R9:gig0/0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,788 [WARNING] topology_builder: Subnet check failed for R9:gig0/1 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,788 [WARNING] topology_builder: Subnet check failed for Server1:eth0 and Server2:eth0 - name 'log' is not defined
+2025-08-11 11:24:35,789 [INFO] topology_builder: Final topology: nodes=21 edges=5
+2025-08-11 11:24:36,086 [INFO] visualizer: Saved topology image to ./output/topology.png
