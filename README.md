@@ -132,7 +132,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ## Contact
 
 **Divya Sharma**
-[GitHub](https://github.com/Lrntbootwfc) | [LinkedIn](https://www.linkedin.com/in/divya-sharma6467)
+[GitHub](https://github.com/Lrntbootwfc) | [LinkedIn](https://www.linkedin.com/in/divya-sharma6467).
 
 ---
 
